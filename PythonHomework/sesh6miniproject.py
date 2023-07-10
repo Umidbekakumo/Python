@@ -5,8 +5,8 @@
 #re.search() is a function provided by the re module in Python 
 # that allows you to search for a specific pattern 
 # within a given string.
-missing_criteria = [] 
-A33 = 0
+missing_criteria = []
+A33 = 0 
 password = input('Enter your password: ')
 import re
 if not re.search('[a-z]', password):
